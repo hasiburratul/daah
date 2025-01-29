@@ -3,6 +3,10 @@ main:
     url: /
   - title: "Posts"
     url: /posts/
+  - title: "Digital Literacy Narrative"
+    url: /dln/
+  - title: "Final Assignment"
+    url: /final/
   # - title: "Categories"
   #   url: /categories/
   # - title: "Tags"
