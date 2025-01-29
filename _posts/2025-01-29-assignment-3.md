@@ -1,6 +1,6 @@
 ---
 title: "Assignment 3"
-date: 
+date: 2025-01-29
 categories: assignment
   - 
 tags:
