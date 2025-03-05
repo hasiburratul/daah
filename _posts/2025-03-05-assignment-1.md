@@ -25,13 +25,13 @@ Although there were quite a few intense speeches along the presidential campaign
 
 I cleaned up both the speech and saved those in seperate text file for Voyant and R analysis for later. 
 
-[Harris's speech](../assets/data/harris.txt)
+[Harris's speech](assets/data/harris.txt)
 
-[Trump's speech](../assets/data/trump.txt)
+[Trump's speech](assets/data/trump.txt)
 
 After this came the tricky part: how to generate a USA presidential convention speech using the ChatGPT. The first time I tried using ChatGPT, I got a red flag that I was violating the community guidelines. I realized this approach would not work. I had the idea of using Perplexity to first comb through the national newspaper and highlight the national issues of the USA. Then I prompted at Perplexity to write an introduction about a fictional country called *“Atlantica”*. 
 
-[Introduction to Atlantica](../assets/data/atlantica.txt)
+[Introduction to Atlantica](assets/data/atlantica.txt)
 
 
 Skimming through the ChatGPT-generated speech, I felt it was a very policy-driven speech; hence, another idea popped in my head: *what if I ask ChatGPT explicitly to generate speech as if it were a right-wing candidate?* The rationale behind this was an article on [Forbes magazine titled “ChatGPT Has Liberal Bias, Say Researchers”](https://www.forbes.com/sites/emmawoollacott/2023/08/17/chatgpt-has-liberal-bias-say-researchers/).
@@ -92,13 +92,13 @@ For the analysis, I had three distinct questions in my head. These questions are
 
 In R notebook, I first normalized the texts by removing extraneous punctuation and standardized letter casing. Then I started with the most frequent words analysis of all the texts.
 
-![Most Frequent Words](/assets/images/MFW_Trump.png)
+![Most Frequent Words](assets/images/MFW_Trump.png)
 
-![Most Frequent Words](/assets/images/MFW_Harris.png)
+![Most Frequent Words](assets/images/MFW_Harris.png)
 
-![Most Frequent Words](/assets/images/MFW_ChatGPT.png)
+![Most Frequent Words](assets/images/MFW_ChatGPT.png)
 
-![Most Frequent Words](/assets/images/MFW_ChatGPTR.png)
+![Most Frequent Words](assets/images/MFW_ChatGPTR.png)
 
 From looking at the most frequent words few patterns started to emerge. For Example:
 
@@ -116,62 +116,62 @@ Although Harris and Trump include direct enagement phrases and emotive words, Ch
 
 Secondly, I explored how in all four texts words were used, highlighting the similarities and differences between their word choices. 
 
-![Words Usage Comparison](/assets/images/WUC_ChatGPT.png)
+![Words Usage Comparison](assets/images/WUC_ChatGPT.png)
 
-![Words Usage Comparison](/assets/images/WUC_ChatGPTR.png)
+![Words Usage Comparison](assets/images/WUC_ChatGPTR.png)
 
-![Words Usage Comparison](/assets/images/WUC_HarrisTrump.png)
+![Words Usage Comparison](assets/images/WUC_HarrisTrump.png)
 
-![Words Usage Comparison](/assets/images/WUC_ChatGPT&R.png)
+![Words Usage Comparison](assets/images/WUC_ChatGPT&R.png)
 
 After looking at the Word Usage Comparison across all 4 texts, it was evident that there is a little similarity between word usage across all 4 texts. Hence, I decided to also explore the Top Differentially Used Words. With the help of Copilot, I added the extra code blocks for this. The idea behind this was to be able to clearly answer which words appear disproportionately more in one speech than another? 
 
-![Differentially Used Words](/assets/images/DW_HarrisTrump.png)
+![Differentially Used Words](assets/images/DW_HarrisTrump.png)
 
-![Differentially Used Words](/assets/images/DW_Harris.png)
+![Differentially Used Words](assets/images/DW_Harris.png)
 
-![Differentially Used Words](/assets/images/DW_Trump.png)
+![Differentially Used Words](assets/images/DW_Trump.png)
 
-![Differentially Used Words](/assets/images/DW_HarrisR.png)
+![Differentially Used Words](assets/images/DW_HarrisR.png)
 
-![Differentially Used Words](/assets/images/DW_TrumpR.png)
+![Differentially Used Words](assets/images/DW_TrumpR.png)
 
 
 
 Even after looking at the raw frequency of different words in the texts, it was clear that a few words that do not carry a lot of meaning are probably overshadowing unique words. My rationale was that both Harris and Trump used the word border, for example, and looking into raw frequency would not give us a clear picture about whether their individual speeches were unique. To understand this, I used perplexity to find out if there was a way to determine what makes a speech unique. I came across this metric called TF-IDF (Term Frequency–Inverse Document Frequency) that highlights words that are particularly important to a given text compared to the entire corpus, so I looked into resources and, with the help of Copilot, easily could modify the R code to visualize this. 
 
 
-![TFIDF](/assets/images/TFIDF.png)
+![TFIDF](assets/images/TFIDF.png)
 
 Looking at this visualization it was clear what each speech uniquely cared about compared to others. 
 
 
 The next thing that I stumbled upon was what are the themes of individual speeches. From the Voyant tool, I found it was quite interesting to know which words are often used together, so I used Perplexity with the idea that the occurrence of similar words together repeatedly can give us a sense of themes in the speeches. I found two separate tools to visualize this Latent Dirichlet Allocation (LDA) and co-occurance network. These helps us to group words into overarching “topics” that frequently appear together across the entire text
 
-![LDA](/assets/images/LDA_Trump.png)
-![LDA](/assets/images/LDA_Harris.png)
-![LDA](/assets/images/LDA_ChatGPT.png)
-![LDA](/assets/images/LDA_ChatGPTR.png)
+![LDA](assets/images/LDA_Trump.png)
+![LDA](assets/images/LDA_Harris.png)
+![LDA](assets/images/LDA_ChatGPT.png)
+![LDA](assets/images/LDA_ChatGPTR.png)
 
 To better understand the sequence of words:
-![FWC](/assets/images/FWC_Harris.png)
-![FWC](/assets/images/FWC_Trump.png)
-![FWC](/assets/images/FWC_ChatGPT.png)
-![FWC](/assets/images/FWC_ChatGPTR.png)
+![FWC](assets/images/FWC_Harris.png)
+![FWC](assets/images/FWC_Trump.png)
+![FWC](assets/images/FWC_ChatGPT.png)
+![FWC](assets/images/FWC_ChatGPTR.png)
 
 As Trump’s speech was the longest and looked like a lot of repetition of pronouns, I wanted to check the lexical diversity of the text to understand how each speech was made up. Was it similar words put together again and again to prolong the speech or different words/ideas were proposed? 
 
-![Lexical](/assets/images/Lexical%20Diversity.png)
+![Lexical](assets/images/Lexical%20Diversity.png)
 
 After looking into these comparisons, the first thing that stuck out to me was the politician's use of word was actively trying to generate emotion among the supporters. Trump's use of superlatives and Kamala’s use of words to relate to the fellow Americans were examples of that. Where’s the both versions of ChatGPT were either talking about policy or ideologies. To check this hypothesis, I wanted to run some sentiment analysis on the text. I went back to the notebook and, with help of Copilot, coded a simple sentiment analysis tool using the R library that would assign a numerical value to each text, reflecting whether its language skews positive, negative, or neutral.
 
-![Sentiment Analysis](/assets/images/sentiment.png)
+![Sentiment Analysis](assets/images/sentiment.png)
 
 The emotional coloration of the speech supported my initial hypothesis. ChatGPT severaly lacked to evoke positive sentiment. The real politicians amazingly blended negativity toward opponents with calls for hope and progress—striking an emotional balance that would resonates with voters. 
 
 After looking at differentially used words, sentiment, co-occurrence, and topic modeling, I still wanted a single metric that might capture overall similarity irrespective of the length of the speeches. So, I used Pearson correlation of word frequencies. If two speeches use words in similar proportions across the entire vocabulary, they exhibit a higher correlation.
 
-![cosign](/assets/images/cosign.png)
+![cosign](assets/images/cosign.png)
 
 ## Thoughts
 Throughtout the exploration and analysis the most recurring theme was ChatGPT's outputs were heavy on policy language but short on the emotional hooks. 
