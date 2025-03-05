@@ -1,5 +1,4 @@
 ---
----
 title: "Assignment 1"
 date: 2025-03-05
 categories: 
