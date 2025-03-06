@@ -24,9 +24,9 @@ Although there were quite a few intense speeches along the presidential campaign
 
 I cleaned up both the speech and saved those in seperate text file for Voyant and R analysis for later. 
 
-[Harris's speech](/assets/data/harris.txt)
+[Harris's speech](https://raw.githubusercontent.com/hasiburratul/daah/gh-pages/assets/data/harris.txt)
 
-[Trump's speech](/assets/data/trump.txt)
+[Trump's speech](https://raw.githubusercontent.com/hasiburratul/daah/gh-pages/assets/data/trump.txt)
 
 After this came the tricky part: how to generate a USA presidential convention speech using the ChatGPT. The first time I tried using ChatGPT, I got a red flag that I was violating the community guidelines. I realized this approach would not work. I had the idea of using Perplexity to first comb through the national newspaper and highlight the national issues of the USA. Then I prompted at Perplexity to write an introduction about a fictional country called *“Atlantica”*. 
 
@@ -91,7 +91,7 @@ For the analysis, I had three distinct questions in my head. These questions are
 
 In R notebook, I first normalized the texts by removing extraneous punctuation and standardized letter casing. Then I started with the most frequent words analysis of all the texts.
 
-![Most Frequent Words](/assets/images/MFW_Trump.png)
+![Most Frequent Words](https://raw.githubusercontent.com/hasiburratul/daah/gh-pages/assets/images/MFW_Trump.png)
 
 ![Most Frequent Words](/assets/images/MFW_Harris.png)
 
