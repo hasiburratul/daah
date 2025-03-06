@@ -31,7 +31,7 @@ I cleaned up both the speech and saved those in seperate text file for Voyant an
 
 After this came the tricky part: how to generate a USA presidential convention speech using the ChatGPT. The first time I tried using ChatGPT, I got a red flag that I was violating the community guidelines. I realized this approach would not work. I had the idea of using Perplexity to first comb through the national newspaper and highlight the national issues of the USA. Then I prompted at Perplexity to write an introduction about a fictional country called *“Atlantica”*. 
 
-[Introduction to Atlantica](/assets/data/atlantica.txt)
+[Introduction to Atlantica](https://raw.githubusercontent.com/hasiburratul/daah/gh-pages/assets/data/atlantica.txt)
 
 
 Skimming through the ChatGPT-generated speech, I felt it was a very policy-driven speech; hence, another idea popped in my head: *what if I ask ChatGPT explicitly to generate speech as if it were a right-wing candidate?* The rationale behind this was an article on [Forbes magazine titled “ChatGPT Has Liberal Bias, Say Researchers”](https://www.forbes.com/sites/emmawoollacott/2023/08/17/chatgpt-has-liberal-bias-say-researchers/).
