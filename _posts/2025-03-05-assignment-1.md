@@ -70,10 +70,12 @@ For the analysis, I had three distinct questions in my head. These questions are
 <br>
 
 - Quick Summary of Donald Trump's speech
+Due to the length of speech I had to embed images instead of the html snippet. 
 
-<iframe style='width: 444px; height: 408px;' src='https://voyant-tools.org/tool/Summary/?stopList=keywords-84b6c8143c21fd247c33fe3a1cde23f7&corpus=52995135c033f1806c926a0681ff8d4a'></iframe>
+![Trump Summary](https://raw.githubusercontent.com/hasiburratul/daah/gh-pages/assets/images/Trump.png)
 
-<iframe style='width: 444px; height: 408px;' src='https://voyant-tools.org/tool/Cirrus/?stopList=keywords-84b6c8143c21fd247c33fe3a1cde23f7&whiteList=&corpus=52995135c033f1806c926a0681ff8d4a'></iframe>
+![Trump Word Map](https://raw.githubusercontent.com/hasiburratul/daah/gh-pages/assets/images/WM_Trump.png)
+
 
 <br>
 
