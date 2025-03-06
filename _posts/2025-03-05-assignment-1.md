@@ -36,6 +36,10 @@ After this came the tricky part: how to generate a USA presidential convention s
 
 Skimming through the ChatGPT-generated speech, I felt it was a very policy-driven speech; hence, another idea popped in my head: *what if I ask ChatGPT explicitly to generate speech as if it were a right-wing candidate?* The rationale behind this was an article on [Forbes magazine titled “ChatGPT Has Liberal Bias, Say Researchers”](https://www.forbes.com/sites/emmawoollacott/2023/08/17/chatgpt-has-liberal-bias-say-researchers/).
 
+[ChatGPT Default Speech](https://raw.githubusercontent.com/hasiburratul/daah/gh-pages/assets/data/default.txt)
+
+[ChatGPT Right-wing Speech](https://raw.githubusercontent.com/hasiburratul/daah/gh-pages/assets/data/right-wing.txt)
+
 I wanted to explore how diverse the result would be and was hoping to get some unexpected results in the analysis stage. Therefore, in the end, my corpus was built on these four texts:
 
 - Kamala Harris's speech from DNC.
