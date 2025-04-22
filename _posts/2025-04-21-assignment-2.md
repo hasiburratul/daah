@@ -7,6 +7,8 @@ tags:
   - 
 ---
 
+*Ready to grade*
+
 ## Introduction
 
 The main goal of Thick Mapping, as Professor Wrisley mentioned in the guidelines, is to compare different types of geographically specific data by layering multiple geocoded datasets on a map. Before diving into the project of visualizing the Zanzibar Gazette, I want to lay out the groundwork for you. Hopefully, by the end of this exploration, we will have a thick mapping project that truly connects the dots.
