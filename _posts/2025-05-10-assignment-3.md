@@ -128,7 +128,7 @@ Why so blind? Probably Nano’s compressed parameter budget stores a coarse dict
 ![4.1](https://raw.githubusercontent.com/hasiburratul/daah/gh-pages/assets/images/comparison_results_20250510_211939_visualizations.png) 
 
 
-Here the model doesn’t just parrot “skin texture”; it triangulates lighting anomalies (98 % of explanations), background context (86 %), ear geometry (78 %) and even flags “depth‑of‑field too uniform” when a GAN generator blurs background too smoothly. The similarity‑bins chart is telling: perfect detection across the board—from pairs that look like cousins (sim = 8) to pairs that look like strangers (sim = 1).
+Here the model doesn’t just parrot “skin texture”; it triangulates lighting anomalies (98 % of explanations), background context (86 %), ear geometry (78 %) and even flags “depth‑of‑field too uniform” when a GAN generator blurs background too smoothly. The similarity‑bins chart is telling: perfect detection across the board—from pairs that look like cousins (sim = 6) to pairs that look like strangers (sim = 1).
 
 What is it actually looking at? The explanations hint at a negative ontology: authenticity equals presence of stochastic error. Flash glare, specular hotspots, uneven white‑balance, JPEG mosquito noise—elements that generative models work hard to iron out—become proof of life. In other words, probably, GPT‑4.1’s camera roll of “real” is a library of photographic imperfections.
 
