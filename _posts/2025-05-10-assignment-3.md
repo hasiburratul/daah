@@ -224,5 +224,7 @@ Impett, L., & Offert, F. (2024). There Is a Digital Art History. Visual Resource
 
 Karras, T., Laine, S., & Aila, T. (2019). A Style-Based Generator Architecture for Generative Adversarial Networks. CVPR 2019.
 
+ThisPersonDoesNotExist.com. (2024). AI-generated faces. https://thispersondoesnotexist.com
+
 
 
