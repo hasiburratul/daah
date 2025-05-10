@@ -206,11 +206,11 @@ This project began as a curiosity: could I build a miniature Turing test for fac
 
 ## Code Listings
 
-- [Listing 1: image.py](/assets/code/image.py) - Python scraper for ThisPersonDoesNotExist.com
-- [Listing 2: image_search.py](/assets/code/image_search.py) - Script that matches GAN faces to celebrity lookalikes using OpenAI's API
-- [Listing 3: celebrity_wiki_images.py](/assets/code/celebrity_wiki_images.py) - Script that downloads celebrity images from Wikipedia
-- [Listing 4: compare_images.py](/assets/code/compare_images.py) - Script that compares photos using ChatGPT 
-- [Listing 5: analyze_results.py](/assets/code/compare_images.py) - Script that analyze the GPT-4.1 faceoff results
+- [Listing 1: image.py](https://raw.githubusercontent.com/hasiburratul/daah/gh-pages/assets/code/image.py) - Python scraper for ThisPersonDoesNotExist.com
+- [Listing 2: image_search.py](https://raw.githubusercontent.com/hasiburratul/daah/gh-pages/assets/code/image_search.py) - Script that matches GAN faces to celebrity lookalikes using OpenAI's API
+- [Listing 3: celebrity_wiki_images.py](https://raw.githubusercontent.com/hasiburratul/daah/gh-pages/assets/code/celebrity_wiki_images.py) - Script that downloads celebrity images from Wikipedia
+- [Listing 4: compare_images.py](https://raw.githubusercontent.com/hasiburratul/daah/gh-pages/assets/code/compare_images.py) - Script that compares photos using ChatGPT 
+- [Listing 5: analyze_results.py](https://raw.githubusercontent.com/hasiburratul/daah/gh-pages/assets/code/compare_images.py) - Script that analyze the GPT-4.1 faceoff results
 
 
 
