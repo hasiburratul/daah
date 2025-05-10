@@ -3,28 +3,86 @@ permalink: /dln/
 title: "Digital Literacy Narrative"
 ---
 
-## Reflections on Digital Literacy: A University Student's Perspective
-As a final year university student at a liberal arts institution, I find myself at the intersection of digital fluency and critical inquiry. Digital literacy is not just about knowing how to navigate a computer or use social media; it is about understanding, critiquing, and effectively utilizing digital tools in both academic and personal contexts. Digital literacy is vitally important for enhanced critical thinking, heightened global awareness, improved communication skills and better employment prospects. My daily and academic life is saturated with technology, and yet, I recognize that I am only scratching the surface of what it means to be digitally literate in an era increasingly shaped by artificial intelligence, data-driven decision-making, and computational thinking.
+## Reflections on Digital Literacy
 
-### Digital Literacy in Content Creation and Social Interaction
-Digital literacy informs how I engage with content creation and social interaction. For instance, as a Literature and Creative Writing major, I use platforms like Medium and Substack to publish essays, engage with communities of writers, and receive constructive feedback. My peers in Film and New Media might be adept at using Adobe Premiere Pro or DaVinci Resolve for video editing, while those studying Interactive Media might be creating augmented reality experiences or designing user interfaces with Figma. Regardless of discipline, we all rely on digital platforms to distribute our work, communicate with audiences, and collaborate with others.
+> *“Digital literacy is less about button‑clicking than about understanding the cultural logics that make those buttons matter.”*
+> — adapted from **Berry & Fagerjord, 2017**
 
-Social interaction is similarly shaped by digital fluency. Tools like Discord, Slack, and Trello facilitate collaborative academic projects and extracurricular activities. Understanding behavioral norms while using digital technologies and interacting in digital environments has become essential. While I might use Instagram or TikTok to share creative writing snippets or engage with literature-focused communities, my peers in Art History might curate digital exhibitions on platforms like Google Arts & Culture. Understanding the affordances and limitations of these platforms is a crucial skill—one that extends beyond social engagement to how we construct and critique digital narratives.
+### Introduction – Why the Concept Keeps Expanding
 
-### Digital Research and Data Management
-Managing and analyzing research data is another essential component of digital literacy. Despite being proficient in social networks and basic online navigation, many students entering university lack essential skills to use the Internet and ICTs effectively for academic purposes. For example, I use Zotero to organize citations for literary analysis papers, while my friends in Computer Science might use GitHub for version control in coding projects. My peers in Art and Art History rely on databases like JSTOR and Artstor for research, while those in Interactive Media might employ Unity or Unreal Engine to prototype interactive experiences. Understanding how to efficiently manage digital information not only improves research efficiency but also fosters critical engagement with sources.
+When I arrived at university four years ago, “being good with computers” meant I could troubleshoot a Wi‑Fi glitch and weave a half‑decent PowerPoint. Since then my coursework—from has shown me that digital literacy is no static checklist. It is a moving horizon that now encompasses **algorithmic literacy, data ethics, critical code studies, and platform epistemology**. My goal in this reflection is three‑fold:
 
-Moreover, data manipulation and analysis have become integral to various disciplines. I have experimented with Voyant Tools to conduct textual analysis of literary works, uncovering hidden patterns in large corpora of texts. Meanwhile, my peers in Computer Science use Python and R for data visualization, and those in Film and New Media analyze audience engagement metrics using Google Analytics. Each discipline has its own toolkit, yet digital humanities offer a bridge between them, demonstrating how computational approaches can enrich our understanding of literature, art, and media.
+1. **Clarify** the layered skills and mind‑sets that constitute contemporary digital literacy.
+2. **Demonstrate relevance** through concrete projects I completed this semester.
+3. **Integrate** terminology and readings I have already cited in earlier assignments.
 
-### Digital Humanities and New Horizons in Learning
-The field of digital humanities provides an interdisciplinary space where traditional humanistic inquiry meets computational methods. Digital humanities projects and methods allow students to engage with new technology, collaborate with peers, graduate students, and faculty, and produce tangible scholarship that is publicly visible. Before taking courses in digital humanities, I viewed textual analysis as a primarily close-reading endeavor. However, through exposure to machine learning models for sentiment analysis and topic modeling, I have begun to see literature not just as a collection of individual texts but as part of larger, analyzable systems. Digital humanities expand what is possible in my field, from network analysis of characters in novels to computational studies of authorship attribution.
 
-This exposure has also deepened my understanding of computational thinking, as described by Berry and Fagerjord—not just as programming but as a cognitive practice that involves practical wisdom and reflection on computation itself. In collaborative settings, my peers and I negotiate different approaches to problems: a computer science student might suggest algorithmic sorting for a dataset, while a literature student like myself might emphasize the ethical implications of data collection. These interdisciplinary discussions challenge us to develop nuanced perspectives on digital methods, recognizing both their potential and their limitations.
+### From Skills to Literacies: A Quick Taxonomy
 
-### Critical Reflections on My Digital Abilities and Future Growth
-Despite my growing proficiency in digital research tools, I recognize gaps in my understanding. While I am comfortable with basic text mining and visualization techniques, I would like to develop deeper expertise in natural language processing and data storytelling. AI presents new frontiers in creative writing, from generative text models to interactive storytelling experiences, and I am curious about how these tools can be critically and creatively engaged.
+| Layer                         | Key Competence                               | Example From My Semester                                           |
+| ----------------------------- | -------------------------------------------- | ------------------------------------------------------------------ |
+| **Tool Literacy**             | Operating software for specific tasks        | Voyant Tools                                       |
+| **Information Literacy**      | Evaluating sources & metadata                | Zotero workflows that I started using for my capstone  |
+| **Algorithmic Literacy**      | Understanding recommender logic & bias       | Think about X/Twitter and read relevant articles
+| **Computational Thinking**    | Decomposing problems, pattern generalisation | First assignment on Harris vs. Trump speeches                    |
+| **Critical Digital Literacy** | Questioning power, ethics, sustainability    | Blanchette’s materiality critique & Klein et al.’s AI provocations |
 
-As AI becomes more prevalent in education, key ethical concerns include data privacy, algorithmic bias, and academic integrity. Understanding these implications is crucial for developing a responsible approach to digital tools. Additionally, I want to explore the ethical dimensions of digital work. How do biases in AI systems shape the way information is processed and disseminated? How can we ensure that digital tools do not reinforce systemic inequalities in academia and beyond? Digital literacy is not just about technical proficiency but about developing a critical lens through which to evaluate digital systems and their impact on society.
+This nested model echoes the argument that digital humanities “extend literacy into **critical technical practice**” (Berry & Fagerjord 2017).
 
-### Conclusion
-As I continue my journey through university, I am excited to deepen my engagement with digital humanities and computational thinking. Digital literacy is not a static skill set but an evolving practice that requires constant learning and adaptation in today's increasingly digital world. By embracing interdisciplinary collaboration, critically reflecting on digital tools, and exploring new ways of approaching data, I hope to cultivate a digital fluency that is both technically sound and ethically informed. The liberal arts, with their emphasis on holistic learning and critical thinking, provide the perfect environment for developing both technical proficiency and ethical awareness—one where the humanities and technology do not stand in opposition but work together to enrich our understanding of the world.
+
+### Content Creation & Social Interaction: Beyond Posting
+
+My day now oscillates between **Notion** notes, **Perplexity** quick search, and **Discord/Reddit/X** debates. Each platform performs rhetorical work:
+
+* **Notion** foregrounds *authorship* and *archiving*.
+* **Perplexity** foregrounds *AI enabled search*.
+* **Discord/Reddit/X** foregrounds *ephemerality*; threads dissolve unless intentionally archived.
+
+Recognising those design philosophies is part of what scholars call **platform epistemology**—the study of how software architectures shape knowledge. It also guided my first assignment: I asked whether ChatGPT’s policy‑heavy prose reflected not just training‑data bias but an *interface constraint* that privileges factual coherence over affective repetition. The result: an R‑based lexical‑diversity index demonstrating that LLM‑generated texts clustered near **policy think‑tank white papers**, not stump speeches.
+
+
+### Research & Data Management: Metadata Mindfulness
+
+I understood the importance of data management while geocoding 235 license records from the *1918 Zanzibar Gazette*. The spreadsheet carried residential addresses, business types, and nationalities, but each row also needed **provenance fields**: screenshot filename, extraction model (GPT‑4o‑mini), and confidence score. Only then could I defend my claim that Tumbe and Miembeni were emerging commercial hubs.
+
+
+### Digital Humanities & Computational Thinking: Bridging Qualitative and Quantitative
+
+Reading **Berry & Fagerjord’s** chapter on computational thinking reframed my understanding of *scale*. That ethos influenced my first assignment's analysis. After TF‑IDF surfaced “border,” “freedom,” and “sovereignty” as top discriminators, I resisted quick generalisations. Instead, I ran a sentiment pass to see how often those terms co‑occurred with positive vs. negative valence. Result: Harris paired “freedom” with *family* verbs, while Trump paired “border” with *crisis* nouns. ChatGPT’s right‑wing persona, interestingly, borrowed Trump’s nouns but lacked his superlative‑driven intensifiers (“tremendous,” “incredible”), confirming the LLM’s weakness in **rhetorical amplitude**.
+
+
+### Ethics, Sustainability & the Myth of Immateriality
+
+One of the semester’s most destabilising readings was **Blanchette 2011**, which dismantles the myth that “the cloud is weightless.” Servers consume megawatts; e‑waste piles up; GPU stacks heat deserts. This lens forced me to recalibrate my enthusiasm for model‑heavy workflows. Running GPT‑4o‑mini on 90 PNG screenshots may be “productive,” but it is not impact‑free. In future iterations I intend to:
+
+1. Batch‑compress images to cut token overhead.
+2. Cache interim JSON locally rather than re‑query the API.
+3. Publish an energy‑use note in the project datasheet, echoing **Klein et al. 2025** on accountability.
+
+Ethics also surface in **algorithmic bias**. My EdWeek‑sourced definition of digital literacy (Loewus 2017) stresses “find, evaluate, create, and communicate information.” Yet real‑world recommender engines complicate the “evaluate” step: they tilt visibility toward particular ideologies. My personal project on X/Twitter study showed how AI influencers’ engagement with U.S. politics created a feedback loop in which the algorithm inferred that *I* must crave political hot‑takes. Recognising such loops is part of the literacy skill set.
+
+
+### Limits & Future Growth: Toward Critical Code Studies
+
+Despite gains, my skill graph still has blank nodes:
+
+* **Data Storytelling** – My KeplerGL map impressed visually but lacked narrative scaffolding. Next iteration I will layer scrollytelling panels that guide the reader through Tumbe’s market rise and Malindi’s artisanal cluster.
+* **Critical Code Annotation** – As course discussions emphasised, reading software like literature uncovers hidden ideologies; I have yet to annotate a full inference loop.
+
+
+### Conclusion – Digital Literacy as Reflexive Practice
+
+If the liberal arts excel at anything, it is reminding us that every tool is also a text—open to interpretation, critique, and revision. My speech‑corpus project clarified how linguistic metrics can diagnose (but not fully resolve) AI bias. My Zanzibar thick‑map revealed how OCR pipelines translate colonial ledgers into contemporary spatial logics—and how fragile those translations are. Both projects convinced me that digital literacy is best understood as a **reflexive practice**: one that loops technical skill with cultural analysis in perpetuity.
+
+In the semesters ahead, I will continue to ask: What infrastructures underlie my screen? What histories haunt my dataset? And how can I design with both efficiency and equity in mind? Answering those questions, I believe, will turn mere digital competence into genuinely *humane* digital fluency.
+
+
+### References
+
+Berry, D. M., & Fagerjord, A. (2017). *Digital Humanities: Knowledge and Critique in a Digital Age*. Polity.
+
+Blanchette, J‑F. (2011). *A Material History of Bits*. *Journal of the American Society for Information Science and Technology*, 62(6), 1042–1057.
+
+Klein, L., Di Salvo, P., Lee, B., Srivastava, S., & Ngô, M. (2025). *Provocations from the Humanities for Generative AI Research* (arXiv:2502.19190).
+
+Loewus, L. (2017). What Is Digital Literacy? *Education Week*. [https://www.edweek.org/teaching-learning/what-is-digital-literacy/2016/11](https://www.edweek.org/teaching-learning/what-is-digital-literacy/2016/11)
