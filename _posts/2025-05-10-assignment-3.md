@@ -117,6 +117,7 @@ The nano engine talks a good game—its word‑cloud screams skin texture, ligh
 Why so blind? Probably Nano’s compressed parameter budget stores a coarse dictionary of anomaly tokens, but the vision encoder that feeds those tokens into the language head resolves only macroscopic cues. Fine‑grained GAN quirks—ear‑rim clipping, sub‑pixel pore noise—pass under its radar.
 
 ### Run #2 — ChatGPT‑4.1
+
 | Metric         | Value               |
 | -------------- | ------------------- |
 | Accuracy       | **50 / 50 = 100 %** |
