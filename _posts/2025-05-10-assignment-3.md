@@ -215,6 +215,12 @@ This project began as a curiosity: could I build a miniature Turing test for fac
 - [Listing 5: analyze_results.py](https://raw.githubusercontent.com/hasiburratul/daah/gh-pages/assets/code/compare_images.py) - Script that analyze the GPT-4.1 faceoff results
 
 
+## Image Folders
+
+- [Fake Images](https://github.com/hasiburratul/daah/tree/gh-pages/assets/images/fake) 
+- [Celebrity Images](https://github.com/hasiburratul/daah/tree/gh-pages/assets/images/real)
+
+
 ## Reference
 Arnold, T., & Tilton, L. (2023). Distant viewing: Computational exploration of digital images. MIT Press.
 
