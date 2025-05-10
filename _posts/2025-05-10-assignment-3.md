@@ -8,8 +8,10 @@ tags:
   - 
 ---
 
+*Ready to grade*
+
 ## Introduction
-In early April I found myself doom‑scrolling through ThisPersonDoesNotExist—a kind of infinite hall of mirrors where every smiling stranger feels plausible until that second glance when the teeth blur or the earrings go missing. Two thoughts collided. First, these faces are improving at a speed that feels exponential. Second, so are the detectors trained to unmask them. What happens, I wondered, when we pit contemporary visual‑AI pipelines against a hand‑curated rogues' gallery of GAN portraits and bona‑fide celebrity photos?
+In early April I found myself doom‑scrolling through ThisPersonDoesNotExist—a kind of infinite hall of mirrors where every smiling stranger feels plausible until that second glance when the teeth blur or the earrings go missing. Two thoughts collided. First, these faces are improving at a speed that feels exponential. Second, so are the detectors trained to unmask them. What happens, I wondered, when we pit contemporary visual‑AI pipelines against a hand‑curated rogues' gallery of GAN portraits and bona‑fide celebrity photos? Arnold & Tilton’s concept of “distant viewing” frames this exact challenge: using computational methods to analyze large image corpora and interrogate what machines actually “see”.
 
 Assignment 3 handed me the perfect sandbox: build a custom corpus, push it through Orange Data Mining, 2D CLIP, and DV Explorer, then write a critical essay. I decided to go all‑in on the face problem, assembling 100 images—fifty "people" who never lived, fifty public‑domain celebrities who definitely did—and to document, in painful detail, how each tool read, clustered, mis‑read, and finally betrayed its own biases. The story that follows is equal parts lab‑notebook and reflective essay, woven together in the cadence you would expect from an HCI heavy course post‑mortem: data, screenshots, but also a healthy dose of "why does this matter?"
 
@@ -37,7 +39,7 @@ The final piece of the pipeline was `celebrity_wiki_images.py`, a script that's 
 
 The code is a study in pragmatic scraping: BeautifulSoup for parsing, urllib for URL gymnastics, and a polite one-second delay between requests to avoid angering Wikipedia's guardians. It's robust enough to handle most edge cases—missing infoboxes, alternate spellings, even the occasional redirect—but not invincible. For four celebrities, the script's best efforts were thwarted by Wikipedia's labyrinthine structure or the absence of a usable image. In those cases, I rolled up my sleeves and added the portraits manually, a reminder that even the best automation sometimes needs a human in the loop. 
 
-What I love about this script is how it operationalizes the idea of "ground truth." Each downloaded image is a little act of citation, a way of anchoring the GAN hallucinations to the real, messy world of public figures and open data. The result is a dataset that's not just synthetic-vs-real, but synthetic-vs-culturally-anchored, with every pairing a microcosm of how AI, APIs, and the web conspire to shape our sense of resemblance and identity. 
+What I love about this script is how it operationalizes the idea of "ground truth." Each downloaded image is a little act of citation, a way of anchoring the GAN hallucinations to the real, messy world of public figures and open data. Arnold & Tilton emphasize that annotations and metadata never capture the whole image, and that computational analysis always encodes the biases of its training data. The result is a dataset that's not just synthetic-vs-real, but synthetic-vs-culturally-anchored, with every pairing a microcosm of how AI, APIs, and the web conspire to shape our sense of resemblance and identity. 
 
 *Full code in Listing 3 below.*
 
@@ -57,7 +59,7 @@ The very first visualization after the image embeddings the, Image Grid, alread
 ![imagegrid](https://raw.githubusercontent.com/hasiburratul/daah/gh-pages/assets/images/image-grid.png)
 
 ###  Hierarchical view
-Running cosine distances through average‑linkage produced a dendrogram whose root split sits at 0.10. Selecting the largest branch (C1) sent thirty‑six images to an Image Viewer; every single one was a GAN portrait with matte skin and no background entropy. Impett & Offert’s dictum kicks in: in reading the network we are reading back the latent photography grammar baked into ImageNet.
+Running cosine distances through average‑linkage produced a dendrogram whose root split sits at 0.10. Selecting the largest branch (C1) sent thirty‑six images to an Image Viewer; every single one was a GAN portrait with matte skin and no background entropy. Impett & Offert’s dictum kicks in: in reading the network we are reading back the latent photography grammar baked into ImageNet. Fei-Fei Li’s TED talk details the creation of ImageNet, the massive dataset that underpins much of modern computer vision, and explains how its scale and diversity were designed to mimic the way children learn to see the world. 
 
 ![hierarchical](https://raw.githubusercontent.com/hasiburratul/daah/gh-pages/assets/images/hierarchical.png)
 
@@ -191,7 +193,7 @@ Three cross‑tool findings crystallise:
 
 
 ## Then What Do Machines Actually See?
-When Inception sorts faces, it does not start with cheekbone curvature; it starts with light fall‑off, JPEG noise, and accidental background context. When GPT‑4 flags a portrait as fake, it does so because ears are too smooth. Put differently, the detectors’ epistemology is not “realism” but “imperfection.” The absence of a glitch is suspicious.
+When Inception sorts faces, it does not start with cheekbone curvature; it starts with light fall‑off, JPEG noise, and accidental background context. Fei-Fei Li notes that while computers can now identify objects and generate descriptions, their “seeing” is fundamentally different from human perception, which is deeply contextual and narrative. When GPT‑4 flags a portrait as fake, it does so because ears are too smooth. Put differently, the detectors’ epistemology is not “realism” but “imperfection.” The absence of a glitch is suspicious. 
 
 This has ethical stakes. Social media filters increasingly aim for glitch‑free beauty. Paradoxically, that “improvement” pushes human selfies toward the GAN corner of the latent map, making authentic people look less real to machines. Conversely, GAN researchers are busily injecting stochastic “StyleGAN‑v” imperfections—pores, asymmetry, random chromatic noise—to fool detectors like the full GPT‑4. We are locked in a negative arms race where realism is measured by the quantity of mess.
 
@@ -213,6 +215,14 @@ This project began as a curiosity: could I build a miniature Turing test for fac
 - [Listing 5: analyze_results.py](https://raw.githubusercontent.com/hasiburratul/daah/gh-pages/assets/code/compare_images.py) - Script that analyze the GPT-4.1 faceoff results
 
 
+## Reference
+Arnold, T., & Tilton, L. (2023). Distant viewing: Computational exploration of digital images. MIT Press.
+
+Li, F.-F. (2015, March). How we teach computers to understand pictures [Video]. TED Conferences. https://www.youtube.com/watch?v=40riCqvRoMs
+
+Impett, L., & Offert, F. (2024). There Is a Digital Art History. Visual Resources, 38(2), 1–24. https://doi.org/10.1080/01973762.2024.2362466
+
+Karras, T., Laine, S., & Aila, T. (2019). A Style-Based Generator Architecture for Generative Adversarial Networks. CVPR 2019.
 
 
 
